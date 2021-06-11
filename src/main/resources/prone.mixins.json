@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "package": "user11681.prone.asm.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "plugin": "user11681.prone.asm.ProneMixinConfigPlugin",
+    "mixins": [
+        "EntityMixin",
+        "PlayerEntityMixin",
+        "ServerPlayerEntityMixin",
+        "ServerWorldMixin"
+    ],
+    "client": [
+        "ClientPlayerEntityMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

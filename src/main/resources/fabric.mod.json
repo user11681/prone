@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "prone",
+    "version": "${version}",
+    "name": "prone",
+    "description": "allows players to become prone by pressing a key (c by default) or holding a key (left alt by default)",
+    "authors": [
+        "user11681"
+    ],
+    "contact": {
+        "sources": "https://github.com/user11681/prone"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/prone/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "user11681.prone.Prone"
+        ],
+        "client": [
+            "user11681.prone.Prone"
+        ]
+    },
+    "mixins": [
+        "prone.mixins.json"
+    ]
+}

@@ -1,0 +1,16 @@
+plugins {
+    id("wheel-fabric").version("latest.integration")
+}
+
+group = "user11681"
+version = "0.1.3"
+
+dependencies {
+    modInclude("api-base")
+    modInclude("api-command")
+    modInclude("api-key-bindings")
+    modInclude("api-networking")
+    modInclude("api-resource-loader")
+
+    bloated("modmenu")
+}
